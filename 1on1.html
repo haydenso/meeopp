@@ -26,21 +26,28 @@
             $(function () {
                 $(".resizable").resizable();
             });
-        </script>
 
-        <body>
+            function nocss(){
+                document.getElementByI.style.display ="none";
+            };
 
-            <div class="resizable" id="resizable"></div>
             
-            <section id="ut">
-                <div class="resizable" id="wp"></div>
-                <section id="ut2">
-                    <div class="resizable" id="qb"></div>
-                    <div class="resizable" id="py"></div>
-                </section>
-                <div id="buttons"></div>
-            </section>
+        </script>
+    </head>
 
-        </body>
+    <body>
+
+        <div class="resizable" id="resizable">Video and presentation <button onclick="nocss()"></button> </div>
+        
+        <section id="ut">
+            <div class="resizable" id="wp">Writing Pad <button onclick="nocss()"></button> </div>
+            <section id="ut2">
+                <div class="resizable" id="qb">Question Box <button onclick="nocss()" ></button> </div>
+                <div class="resizable" id="py">Pinyin Toolbox <button onclick="nocss()"></button> </div>
+            </section>
+            <div id="buttons"></div>
+        </section>
+
+    </body>
 
 </html>
