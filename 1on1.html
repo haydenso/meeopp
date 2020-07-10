@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- description -->
+        <title>1on1 test</title>
+        <meta name="description" content="Test">
+
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- extra fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- css styling -->
+        <link rel="stylesheet" href="1on1.css" media="print" onload="this.media='all'"> 
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script>
+            $(function () {
+                $(".resizable").resizable();
+            });
+        </script>
+
+        <body>
+
+            <div class="resizable" id="resizable"></div>
+            
+            <section id="ut">
+                <div class="resizable" id="wp"></div>
+                <section id="ut2">
+                    <div class="resizable" id="qb"></div>
+                    <div class="resizable" id="py"></div>
+                </section>
+                <div id="buttons"></div>
+            </section>
+
+        </body>
+
+</html>

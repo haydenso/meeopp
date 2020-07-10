@@ -1,0 +1,54 @@
+* {
+    background-color: lightblue;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 30px;
+}
+
+body{
+    display: flex;
+    justify-content: left;
+}
+
+#resizable{
+    min-height:97vh;
+    min-width: 900px;
+    max-width: 1200px;
+    max-height: 97vh;
+    background-color: white;
+}
+
+#ut{
+    display: flex column ;
+    max-width: 520px;
+}
+
+#ut2{
+    display: flex;
+    flex-direction: row;
+    max-width: 550px;
+}
+
+#wp{
+    min-height: 150px;
+    max-height: 350px;
+    min-width: 440px;
+    max-width: 520px;
+    background-color: black;
+}
+
+#qb{
+    min-height: 200px;
+    min-width: 220px;
+    max-width: 320px;
+    max-height: 490px;
+    background-color: grey
+}
+
+#py{
+    min-height: 200px;
+    min-width: 220px;
+    max-width: 320px;
+    max-height: 490px;
+    background-color: yellow;
+}
